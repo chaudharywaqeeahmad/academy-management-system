@@ -1,0 +1,57 @@
+############################
+# GLOBAL
+############################
+.env
+.env.*
+*.log
+*.cache
+*.swp
+.DS_Store
+Thumbs.db
+
+############################
+# NODE / REACT
+############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+
+############################
+# REACT ENV FILES
+############################
+frontend/.env
+frontend/.env.local
+frontend/.env.development
+frontend/.env.production
+
+############################
+# LARAVEL
+############################
+backend/vendor/
+backend/.env
+backend/.env.*
+backend/storage/*.key
+backend/storage/logs/
+backend/storage/framework/cache/
+backend/storage/framework/sessions/
+backend/storage/framework/views/
+backend/bootstrap/cache/
+
+############################
+# LARAVEL IDE / TOOLS
+############################
+backend/.idea/
+backend/.vscode/
+
+############################
+# DATABASE
+############################
+*.sqlite
+*.sql
+
+# Allow schema-only SQL if needed
+!database/schema.sql
